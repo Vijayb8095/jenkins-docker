@@ -15,6 +15,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+   <distributionManagement>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Java Application snapshot</name>
+      <url>http://192.168.4.109:8081/repository/java-docker-nexus/</url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus</id>
+      <name>Java Application release</name>
+      <url>http://192.168.4.109:8081/repository/java-docker-nexus-release/</url>
+    </repository>
+  </distributionManagement>
   <build>
 	  <finalName>MyWebApp</finalName>
 	   <plugins>
