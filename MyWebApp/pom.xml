@@ -28,7 +28,7 @@
     </repository>
   </distributionManagement>
   <build>
-	  <finalName>MyWebApp</finalName>
+	  
 	   <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
